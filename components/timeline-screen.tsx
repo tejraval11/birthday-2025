@@ -50,7 +50,8 @@ export default function TimelineScreen({ onNext }: TimelineScreenProps) {
       icon: MessageCircle,
       color: "from-blue-500 to-purple-500",
       hasPhoto: true,
-      images: ["/timeline/countless1.jpeg", "/timeline/countless2.jpeg"]
+      images: ["/timeline/countless1.jpeg", "/timeline/countless2.jpeg"],
+      multiplePhotos: true // 
     },
     {
       date: "June 2024",
@@ -115,7 +116,8 @@ export default function TimelineScreen({ onNext }: TimelineScreenProps) {
       icon: Heart,
       color: "from-red-500 to-pink-500",
       hasPhoto: true,
-      images: ["/timeline/Days1.jpeg", "/timeline/Days2.jpeg", "/timeline/Days3.jpeg", "/timeline/Days4.jpeg"]
+      images: ["/timeline/Days1.jpeg", "/timeline/Days2.jpeg", "/timeline/Days3.jpeg", "/timeline/Days4.jpeg"],
+      multiplePhotos: true // 
     },
     {
       date: "11 March 2025",
@@ -133,7 +135,8 @@ export default function TimelineScreen({ onNext }: TimelineScreenProps) {
       icon: Heart,
       color: "from-green-500 to-blue-500",
       hasPhoto: true,
-      images: ["/timeline/College1.jpeg", "/timeline/College2.jpeg"]
+      images: ["/timeline/College1.jpeg", "/timeline/College2.jpeg"],
+      multiplePhotos: true // 
     },
     {
       date: "This Navratri",
