@@ -50,7 +50,7 @@ export default function TimelineScreen({ onNext }: TimelineScreenProps) {
       icon: MessageCircle,
       color: "from-blue-500 to-purple-500",
       hasPhoto: true,
-      images: ["/timeline/countless1.jpeg", "/timeline/countless2.jpeg"],
+      images: ["/timeline/Countless1.jpeg", "/timeline/Countless2.jpeg"],
       multiplePhotos: true // 
     },
     {
