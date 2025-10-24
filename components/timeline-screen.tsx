@@ -21,7 +21,9 @@ export default function TimelineScreen({ onNext }: TimelineScreenProps) {
       title: "The First Text 💌",
       description: "I texted her for the first time, little did I know this would change everything",
       icon: MessageCircle,
-      color: "from-pink-500 to-purple-500"
+      color: "from-pink-500 to-purple-500",
+      hasPhoto: true,
+      image: "/timeline/FirstText.jpeg"
     },
     {
       date: "March 2024",
@@ -46,7 +48,9 @@ export default function TimelineScreen({ onNext }: TimelineScreenProps) {
       title: "Countless Sleepless Nights 🌙",
       description: "Endless conversations, getting to know each other, falling in love through texts",
       icon: MessageCircle,
-      color: "from-blue-500 to-purple-500"
+      color: "from-blue-500 to-purple-500",
+      hasPhoto: true,
+      images: ["/timeline/countless1.jpeg", "/timeline/countless2.jpeg"]
     },
     {
       date: "June 2024",
@@ -93,7 +97,7 @@ export default function TimelineScreen({ onNext }: TimelineScreenProps) {
       description: "Celebrating the most important person in my life",
       icon: Heart,
       color: "from-pink-500 to-purple-500",
-      hasPhoto: true
+      hasPhoto: false,
     },
     {
       date: "January 2025",
@@ -111,7 +115,7 @@ export default function TimelineScreen({ onNext }: TimelineScreenProps) {
       icon: Heart,
       color: "from-red-500 to-pink-500",
       hasPhoto: true,
-      multiplePhotos: true
+      images: ["/timeline/Days1.jpeg", "/timeline/Days2.jpeg", "/timeline/Days3.jpeg", "/timeline/Days4.jpeg"]
     },
     {
       date: "11 March 2025",
@@ -119,7 +123,8 @@ export default function TimelineScreen({ onNext }: TimelineScreenProps) {
       description: "She made my birthday the most special day with her love and surprises",
       icon: Star,
       color: "from-purple-500 to-pink-500",
-      hasPhoto: true
+      hasPhoto: true,
+      image: "/timeline/Birthday.jpeg"
     },
     {
       date: "April/May 2025",
@@ -129,15 +134,6 @@ export default function TimelineScreen({ onNext }: TimelineScreenProps) {
       color: "from-green-500 to-blue-500",
       hasPhoto: true,
       images: ["/timeline/College1.jpeg", "/timeline/College2.jpeg"]
-    },
-    {
-      date: "Summer 2025",
-      title: "Beautiful Days Together ☀️",
-      description: "Countless beautiful days spent together, creating memories",
-      icon: Star,
-      color: "from-yellow-500 to-orange-500",
-      hasPhoto: true,
-      images: ["/timeline/Days1.jpeg", "/timeline/Days2.jpeg", "/timeline/Days3.jpeg", "/timeline/Days4.jpeg"]
     },
     {
       date: "This Navratri",
